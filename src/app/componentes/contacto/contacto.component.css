@@ -1,0 +1,30 @@
+.banner-cucciolo{
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+};
+
+.canales-venta {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.margen-canales-contacto {
+ margin-top: 25px;
+ margin-bottom: 25px;
+}
+
+.detalles {
+    margin-top:40px;
+    text-align: left;
+}
+
+
+.color-cucciolo {
+ color: #9b59b6;
+}
+
+.item-canal {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
