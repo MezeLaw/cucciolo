@@ -1,22 +1,23 @@
 <div class="container margin-sup">
     <h1 class="animated flipInX"> Comprar </h1>
     <hr>
-    <div id="tabla" class="animated fast fadeIn" *ngFor="let producto of productos " >
-        
-        <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="{{ producto.imgUrl }}" alt="{ producto.nombre }">
-              <div class="card-body">
-                <h5 class="card-title">{{ producto.nombre }}</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
 
 
+
+
+    <div class="card-columns">
+
+      <div class="card card-margins"  *ngFor="let producto of productos">
+        <img class="card-img-top" src= "{{ producto.imgUrl }}" width="150px" height="350px"  alt="{ producto.nombre }">
+        <div class="card-body">
+          <h5 class="card-title">  {{ producto.nombre }}</h5>
+          <p class="card-text"> {{producto.descripcion}} </p>
+          <p class="card-text">Precio: ${{ producto.precio }}<small class="text-muted"><strong> Efectivo</strong> </small></p>
+        </div>
+      </div>
 
     </div>
+
 
 
 </div>
