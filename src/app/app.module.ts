@@ -10,6 +10,8 @@ import { IngresarComponent } from './componentes/ingresar/ingresar.component';
 import { ServiciosComponent } from './componentes/servicios/servicios.component';
 import { ProductosComponent } from './componentes/productos/productos.component';
 import { UbicacionComponent } from './componentes/ubicacion/ubicacion.component';
+import { CallbackComponent } from './componentes/callback/callback.component';
+import { PerfilUsuarioComponent } from './componentes/perfil-usuario/perfil-usuario.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { UbicacionComponent } from './componentes/ubicacion/ubicacion.component'
     IngresarComponent,
     ServiciosComponent,
     ProductosComponent,
-    UbicacionComponent
+    UbicacionComponent,
+    CallbackComponent,
+    PerfilUsuarioComponent
   ],
   imports: [
     BrowserModule,

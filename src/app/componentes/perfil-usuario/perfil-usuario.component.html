@@ -1,0 +1,31 @@
+<div class="container">
+
+    <div class="animated flipInX">
+
+        <h1 class="margin-sup"> Mi Perfil</h1>
+        <hr>
+
+    </div>
+
+  
+        <div  class="container animated fast fadeIn" *ngIf="auth.userProfile$ | async as profile">
+            <div class="row">
+                <h5><strong> Nombre: </strong> {{ profile.given_name }} </h5>
+            </div>   
+
+            <div class="row">
+                <h5><strong> Apellido: </strong> {{ profile.family_name }} </h5>
+            </div> 
+
+            <div class="row">
+                <h5><strong> Nick: </strong> {{ profile.nickname }} </h5>
+            </div> 
+
+            <div class="row">
+                <h5><strong> Email: </strong> {{ profile.email }} </h5>
+            </div> 
+   
+        </div>
+   
+
+</div>>
